@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!-- aqui se crea la seccion que sera la carta en la pagina, que contendra 3 secciones, el "header" que se usara para el titulo, "cafes" y "dessert" que seran el resto de la informacion -->
+    <section class="Menu">
+        <div class="header">
+            <!-- aqui estan los elementos del "header" -->
+            <h1>COFFE MENU</h1>
+            <p>Est 2024</p>
+        </div>
+        <div class="cafes">
+            <!-- en esta seccion estaran los cafes y sus precios. -->
+            <section class="coffee-logo">
+                <h2>Coffee</h2>
+                <i class="bi bi-cup-hot-fill"></i>
+            </section>
+            <!-- Este comentario esta entre 2 sections, que son el titulo (arriba) y la lista de precios (abajo) -->
+            <section class="productos-y-precios">
+                <!-- aqui se usan 2 "ul", para facilitar la distribucion de espacio y no repetir div o section -->
+                <ul class="productos1">
+                    <li><p>French Vanilla</p></li>
+                    <li><p>Caramel Macchiato</li>
+                    <li>Pumkim Spice</li>
+                    <li>Hazeinut</li>
+                    <li>Mocha</li>
+                </ul>
+                <ul class="precios1">
+                    <li><i class="bi bi-currency-dollar">3.000</i></li>
+                    <li><i class="bi bi-currency-dollar">3.750</i></li>
+                    <li><i class="bi bi-currency-dollar">3.500</i></li>
+                    <li><i class="bi bi-currency-dollar">4.000</i></li>
+                    <li><i class="bi bi-currency-dollar">4.500</i></li>
+                </ul>
+            </section>
+        </div>
+        <div class="dessert">
+            <!-- lo siguiente es lo mismo que lo anterior pero con diferente orden. NO se puso igual (que ubiera ahorrado tiempo) por mantener el orden -->
+            <section class="dessert-logo">
+                <h2>Desserts</h2>
+                <img src="./pie.png" alt="">
+            </section>
+            <section class="productos-y-precios2">
+                <ul class="prductos2">
+                    <li>Donut</li>
+                    <li>Cherry Pie</li>
+                    <li>Cheesecake</li>
+                    <li>Cinnamon Roll</li>
+                </ul>
+                <ul class="precios2">
+                    <li><i class="bi bi-currency-dollar">1.500</i></li>
+                    <li><i class="bi bi-currency-dollar">2.750</i></li>
+                    <li><i class="bi bi-currency-dollar">3.000</i></li>
+                    <li><i class="bi bi-currency-dollar">2.500</i></li>
+                </ul>
+            </section>
+            <!-- este p esta puesto aqui porque es lo ultimo de la tarjeta del menu, por ende era mas sencilloponerlo solo sin nada -->
+            <p class="lastP">Visit My Github</p>
+        </div>
+    </section>
+</body>
+</html>

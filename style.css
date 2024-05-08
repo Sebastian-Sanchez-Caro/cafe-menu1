@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+h1 {
+    font-family: impact, serif;
+
+}
+h2{
+    font-family: impact, serif;
+}
+body{
+    background-image: url(./aesthetic-background-brown-coffee-beans-free-vector.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Menu{
+    background-color: rgb(220, 184, 144);
+    width: 350px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px 0 black;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 2px Solid rgb(142, 118, 90);
+
+    
+}
+.coffee-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.productos-y-precios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+.dessert-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.productos-y-precios2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.lastP{
+    text-align: center;
+    margin-top: 10px;
+    border-top: 2px Solid rgb(142, 118, 90);
+    padding-top: 10px   ;
+}
